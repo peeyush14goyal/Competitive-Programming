@@ -24,7 +24,7 @@ vector<double> calcEquation(vector<vector<string> >& equations, vector<double>& 
 	//BFS
 	while(!q.empty())
 	{
-		
+		auto front = q.front();	
 		string n1 = q.front().first.first;
 		string d1 = q.front().first.second;
 		double v1 = q.front().second;
